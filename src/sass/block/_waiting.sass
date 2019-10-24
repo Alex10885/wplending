@@ -1,6 +1,6 @@
 /*верстка второго блока*/
 .waiting
-    height: 604px
+    min-height: 604px
     background-color: #efefef
     padding: 85px 0 75px 0
     &-header
@@ -25,10 +25,9 @@
         text-align: center
     &-wrapper
         margin-top: 45px
+        display: flex
+        justify-content: space-between
     &-item
-        display: inline-block
-        vertical-align: top
-        margin: 0 15px
         width: 339px
         text-align: center
     &-img
