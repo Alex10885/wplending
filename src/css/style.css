@@ -1,9 +1,53 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'Roboto Black';
+  src: url("../fonts/Roboto-Black.eot");
+  src: url("../fonts/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Black.woff") format("woff"), url("../fonts/Roboto-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: url("../fonts/Roboto-Light.eot");
+  src: url("../fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Light.woff") format("woff"), url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/Roboto-Bold.eot");
+  src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url("../fonts/Roboto-Thin.eot");
+  src: url("../fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Thin.woff") format("woff"), url("../fonts/Roboto-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Medium';
+  src: url("../fonts/Roboto-Medium.eot");
+  src: url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -22,7 +66,7 @@
   background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
   color: #ffffff;
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Medium';
   font-size: 19px;
   font-weight: 400;
   line-height: 24px;
@@ -55,13 +99,13 @@
   font-size: 21px;
   font-weight: 300;
   line-height: 28px;
-  font-family: "Roboto Light";
+  font-family: 'Roboto Light';
   font-weight: 300;
 }
 
 .promo-text span {
   color: #f9bf3b;
-  font-family: "Roboto - Bold";
+  font-family: 'Roboto Bold';
   font-weight: 700;
 }
 
@@ -72,9 +116,9 @@
 
 .logo__text {
   color: #ffffff;
-  font-family: Roboto;
+  font-family: 'Roboto Light';
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 24px;
   text-transform: uppercase;
   text-align: center;
@@ -83,7 +127,7 @@
 
 .title {
   color: #f9bf3b;
-  font-family: "Roboto - Black";
+  font-family: 'Roboto Black';
   font-size: 41px;
   font-weight: 400;
   line-height: 24px;
@@ -101,7 +145,7 @@
 
 .title__big {
   color: #ffffff;
-  font-family: "Roboto - Black";
+  font-family: 'Roboto Black';
   font-size: 80px;
   font-weight: 400;
   text-transform: uppercase;
@@ -121,7 +165,7 @@
 
 .more-text {
   color: #ffffff;
-  font-family: "Roboto - Thin";
+  font-family: 'Roboto Thin';
   font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
@@ -143,7 +187,7 @@
 
 .waiting-header {
   color: #252525;
-  font-family: Roboto;
+  font-family: 'Roboto Bold';
   font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
@@ -161,7 +205,7 @@
 .waiting-subheader {
   margin-top: 17px;
   color: #4a4a4a;
-  font-family: Roboto;
+  font-family: 'Roboto Light';
   font-size: 23px;
   font-weight: 400;
   text-align: center;
@@ -189,7 +233,7 @@
 .waiting-descr {
   margin-top: 33px;
   color: #4a4a4a;
-  font-family: Roboto;
+  font-family: 'Roboto Bold';
   font-size: 15px;
   font-weight: 300;
   line-height: 21px;
@@ -204,7 +248,7 @@
 .optimization-header {
   margin-left: 391px;
   color: #299cbd;
-  font-family: "Roboto - Black";
+  font-family: 'Roboto Black';
   font-size: 30px;
   line-height: 12px;
   font-weight: 400;
@@ -218,12 +262,12 @@
   font-size: 17px;
   font-weight: 300;
   line-height: 27px;
-  font-family: "Roboto Light";
+  font-family: 'Roboto Light';
   color: #4a4a4a;
 }
 
 .optimization-text span {
-  font-family: "Roboto - Bold";
+  font-family: 'Roboto Bold';
   font-weight: 700;
 }
 
@@ -243,7 +287,7 @@
 
 .finish-header {
   color: #252525;
-  font-family: Roboto;
+  font-family: 'Roboto Black';
   font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
@@ -294,7 +338,7 @@
   margin-top: 25px;
   text-align: center;
   color: #efefef;
-  font-family: Roboto;
+  font-family: 'Roboto Thin';
   font-size: 17px;
   font-weight: 300;
   line-height: 20px;
@@ -316,7 +360,7 @@
   color: #252525;
   text-align: center;
   margin-top: 42px;
-  font-family: Roboto;
+  font-family: 'Roboto Thin';
   font-size: 30px;
   font-weight: 400;
   line-height: 43px;
@@ -331,7 +375,7 @@
 /*стили блока премьера*/
 .premier {
   min-height: 515px;
-  padding: 89px 0 64px 0;
+  padding: 55px 0 64px 0;
 }
 
 .premier-img {
@@ -343,32 +387,29 @@
   text-align: center;
   margin-top: 37px;
   color: #252525;
-  font-family: Roboto;
+  font-family: 'Roboto Light';
   font-size: 30px;
   font-weight: 400;
-  line-height: 12px;
   text-transform: uppercase;
 }
 
 .premier-title {
   text-align: center;
   color: #299cbd;
-  font-family: "Roboto - Black";
+  font-family: 'Roboto Black';
   font-size: 36px;
   font-weight: 400;
-  line-height: 12px;
   text-transform: uppercase;
-  margin-top: 30px;
+  margin-top: 12px;
 }
 
 .premier-text {
   text-align: center;
   color: #4a4a4a;
-  font-family: Roboto;
+  font-family: 'Roboto Thin';
   font-size: 23px;
   font-weight: 400;
-  line-height: 20px;
-  margin-top: 25px;
+  margin-top: 23px;
 }
 
 /*стили футера*/
@@ -380,6 +421,7 @@
 
 .footer-separator {
   color: #888888;
+  font-family: 'Roboto Black';
 }
 
 .footer-first {
@@ -388,7 +430,7 @@
 
 .footer-first a {
   color: #888888;
-  font-family: Roboto;
+  font-family: 'Roboto Black';
   font-size: 15px;
   font-weight: 300;
   line-height: 21px;
@@ -403,7 +445,7 @@
 .footer-tel__text {
   text-decoration: none;
   color: #888888;
-  font-family: Roboto;
+  font-family: 'Roboto Black';
   font-size: 15px;
   font-weight: 300;
   line-height: 21px;
@@ -412,5 +454,6 @@
 .footer-tel__a {
   color: #888888;
   text-decoration: none;
+  font-family: 'Roboto Bold';
 }
 /*# sourceMappingURL=style.css.map */
